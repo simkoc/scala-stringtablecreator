@@ -5,7 +5,6 @@ organization := "de.halcony"
 enablePlugins(JavaAppPackaging)
 
 libraryDependencies ++= Seq(
-  //"org.scalatest"       %% "scalatest"          % "3.1.0" % Test
 )
 
 ThisBuild / resolvers ++= Seq(
