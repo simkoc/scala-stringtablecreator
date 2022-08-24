@@ -64,7 +64,6 @@ checkstyleSeverityLevel := Some(CheckstyleSeverityLevel.Info)
 
 import ReleaseTransformations._
 releaseVersionBump := sbtrelease.Version.Bump.Bugfix
-publishTo := sonatypePublishToBundle.value
 
 releaseProcess := Seq[ReleaseStep](
   runClean,
