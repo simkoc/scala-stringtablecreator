@@ -10,7 +10,6 @@ libraryDependencies ++= Seq(
 ThisBuild / resolvers ++= Seq(
   Resolver.mavenLocal,
   Resolver.mavenCentral,
-  "Sonatype OSS Snapshots" at "https://s01.oss.sonatype.org/content/repositories/public",
   "Apache public" at "https://repository.apache.org/content/groups/public/"
 )
 
